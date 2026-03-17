@@ -1,40 +1,73 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Henschel Omonigho
+description: Portfolio of Henschel Omonigho – Web Developer, IT Leader, Cybersecurity Professional.
+template: splash
+
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Web Developer • IT Security Leader • Systems Architect
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/profile.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: View My Projects
+      link: /projects/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Contact Me
+      link: /contact/
+      icon: mail
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## About Me
+
+I am an IT professional specializing in **web development, cybersecurity, and financial systems infrastructure**.  
+Currently serving as **Chief Information Security Officer at Coastline Microfinance Bank**, I focus on building secure digital platforms and scalable technology solutions.
+
+---
+
+## Skills
+
+<CardGrid>
+  <Card title="Web Development" icon="code">
+    WordPress, Elementor, Astro, HTML, CSS, JavaScript, WooCommerce.
+  </Card>
+
+  <Card title="Cybersecurity" icon="shield">
+    Security audits, cybersecurity frameworks, risk management, banking compliance.
+  </Card>
+
+  <Card title="Infrastructure" icon="server">
+    Mikrotik networking, server deployment, cloud systems, IT operations.
+  </Card>
+
+  <Card title="Digital Products" icon="rocket">
+    Fintech apps, payment systems, digital banking solutions.
+  </Card>
+</CardGrid>
+
+---
+
+## Featured Work
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="TerraFirma Platform" icon="globe">
+    A professional ecosystem for creatives, builders, and consultants.
+  </Card>
+
+  <Card title="Coastline Mobile Banking App" icon="mobile">
+    Digital banking solution integrated with BankOne core banking.
+  </Card>
+
+  <Card title="Cybersecurity Toolkit" icon="lock">
+    Enterprise-grade cybersecurity policy and compliance toolkit.
+  </Card>
 </CardGrid>
+
+---
+
+## Next
+
+- View full **Projects**
+- Read **Technical Articles**
+- Download my **Cybersecurity Resources**
